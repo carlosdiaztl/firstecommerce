@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <header>
+      <section id="nav1" width="100%">
+        <figure class="figure1">
+          <img
+            class="image"
+            src="/Images/candy-halloween-vocabulary-learn-tieng-viet-9.png"
+            alt="Logo"
+          />
+        </figure>
+        <div id="sede">
+          <img class="mapIcon" src="/Images/location.png" alt="mapIcon" />
+          <p class="textSede">Sede Makaia BootCamp</p>
+        </div>
+        <div id="divSearchBar">
+          <input
+            class="searchBar"
+            type="text"
+            placeholder="   Estoy Buscando"
+          />
+          <a class="more3 round3 search"
+            ><img
+              class="imgBuscar image"
+              src="/Images/1200px-Magnifying_glass_icon.svg.png"
+              alt="Lupa"
+          /></a>
+        </div>
+        <div id="btnsHeader">
+          <a href="#" class="more round"
+            ><img
+              class="imgLogin"
+              src="/Images/login.png"
+              alt="login"
+            />Login</a
+          >
+          <a href="#" class="more round"
+            ><img
+              class="imgLogin"
+              src="/Images/shop.png"
+              alt="login"
+            />Carrito</a
+          >
+        </div>
+      </section>
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">Natural Eye Candy</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/html/favorites.html">Favorites</a></li>
+            <li class="services">
+              <a href="/">Services</a>
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li><a href="/">Chocolates</a></li>
+                <li><a href="/">Dulces</a></li>
+                <li><a href="/">Caramelos</a></li>
+                <li><a href="/">Gomitas</a></li>
+              </ul>
+            </li>
+            <li><a href="/">Delivery</a></li>
+            <li><a href="/">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="cardsMain">
+        <div class="items" id="items"></div>
+      </div>
+      <div>
+
+      </div>
+      <div class="checkoutForm">
+        <button id="btncheckout"class="btncheckout">checkout </button>
+        <div id="formcheck" class="hidden">
+          
+          <form id="formchekout" >ingrese datos 
+          <div>
+            <input
+                placeholder="name"
+                name="ingresar name"
+                id="name"
+              />
+              <input
+                placeholder="direccion"
+                name="ingresar direccion"
+                id="direccion"
+              />
+              <input
+                placeholder="telefono"
+                name="ingresar telefono"
+                id="telefono"
+              />
+          </div>
+          <button id="buy"> BUY NOW </button>
+            <button id="cancel">CANCEL </button>
+          </div>
+          
+        </div>
+          
+        
+        
+      </div>
+    </main>
+    <script src="/Scripts/shop.js"></script>
+  </body>
+</html>

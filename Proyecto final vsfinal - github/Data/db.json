@@ -1,0 +1,298 @@
+{
+  "dulces": [
+    {
+      "id": "1",
+      "title": "fruticas",
+      "tipo": "dulce",
+      "description": "fruticas duras deliciosas para el paladar",
+      "price": 2000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011001719_A1N1_es.jpg"
+    },
+    {
+      "title": "nucita",
+      "tipo": "chocolate",
+      "description": "chocolate cremoso blanco y negro",
+      "price": 1800,
+      "cantidad": 1,
+      "image": "https://colombina.com/uploads/product/7702011134844.png",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "chocodisk",
+      "tipo": "chocolate",
+      "description": "Con Chocodisk puedes disfrutar deliciosos chocolates de colores.",
+      "price": 1500,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011052513_A1R1_es.jpg"
+    },
+    {
+      "title": "chocobreak",
+      "tipo": "chocolate",
+      "description": "La porción ideal de chocolates  para darte un “break”",
+      "price": "1500",
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011002181_A1N1_es.jpg",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "title": "chocoball",
+      "tipo": "chocolate",
+      "description": "Chocolate, relleno con caramelo blando",
+      "price": 2800,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011006622_A1N1_es.jpg"
+    },
+    {
+      "id": "6",
+      "title": "muu",
+      "tipo": "chocolate",
+      "description": "Para darle un toque dulce a tu día.",
+      "price": 3500,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011063793_A1R1_es.jpg"
+    },
+    {
+      "id": "7",
+      "title": "chocobreak huevitos",
+      "tipo": "chocolate",
+      "description": "La porción ideal de chocolate de leche para darte un “break”",
+      "price": 3000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011124050_A1N1_es.jpg"
+    },
+    {
+      "id": "8",
+      "title": "chocobreak mega ball",
+      "tipo": "chocolate",
+      "description": "La porción ideal de chocolate Y trozos de maní para darte un “break”",
+      "price": 3300,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011124937_A1N1_es.jpg"
+    },
+    {
+      "id": "9",
+      "title": "kick mani",
+      "tipo": "chocolate",
+      "description": "Kick es la mezcla ideal de ingredientes para deleitar y a la vez darte energía. ",
+      "price": 4000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011124883_A1R1_es.jpg"
+    },
+    {
+      "id": "10",
+      "title": "nucitas nuggets",
+      "tipo": "chocolate",
+      "description": "El sabor único de la combinación de dos chocolates.",
+      "price": 2000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011013293_A1N1_es.jpg"
+    },
+    {
+      "id": "11",
+      "title": "fussione ron pasas",
+      "tipo": "dulce",
+      "description": "Caramelo duro relleno blando con ron con pasas. ",
+      "price": 3000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011019011_A1N1_es.jpg"
+    },
+    {
+      "id": "12",
+      "title": "banana extra",
+      "tipo": "dulce",
+      "description": "Dulce duro surtido. Encuéntralas en presentación por 100 unidades",
+      "price": 3800,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011016836_A1N1_es.jpg"
+    },
+    {
+      "id": "13",
+      "title": "leche condensada",
+      "tipo": "dulce",
+      "description": "Date gusto con Leche Condensada deslactosada, sin preocupaciones ni arrepentimientos.",
+      "price": 3500,
+      "cantidad": 1,
+      "image": "https://colombina.com/uploads/product/7702097068064_6806_principal.png"
+    },
+    {
+      "id": "14",
+      "title": "arequipe",
+      "tipo": "dulce",
+      "description": "Disfruta el placer del delicioso sabor de Arequipe Colombina delactosado.",
+      "price": 2800,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Conservas/7702097055712_A1N1_es_s01.jpg"
+    },
+    {
+      "id": "15",
+      "title": "mora rellena",
+      "tipo": "dulce",
+      "description": "Dulce duro con relleno sabor a mora. ",
+      "price": 3800,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011050007_A1N1_es.jpg"
+    },
+    {
+      "id": "16",
+      "title": "minibum sutido",
+      "tipo": "dulce",
+      "description": "Caramelo Duro sabor a Fressa Intensa, mango, Uva-fresa.",
+      "price": 1800,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011045850_A1N1_es.jpg"
+    },
+    {
+      "id": "17",
+      "title": "grissly aros",
+      "tipo": "gomas",
+      "description": "Gomas ácidas azucaradas en forma de aros. Sabor a manzana - piña, morazul - fresa y piña - fresa",
+      "price": 1800,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011012296_A1N1_es_s01.jpg"
+    },
+    {
+      "id": "18",
+      "title": "coffee deligth",
+      "tipo": "caramelo",
+      "description": "Caramelo duro con el sabor tradicional a café del Coffee Delight..",
+      "price": 2000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011001764_A1N1_es.jpg"
+    },
+    {
+      "id": "19",
+      "title": "grissly gusano",
+      "tipo": "gomas",
+      "description": "gusanitos ricos",
+      "price": 4000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011012296_A1N1_es_s01.jpg"
+    },
+    {
+      "id": "20",
+      "title": "grissly anillos",
+      "tipo": "gomas",
+      "description": "Gomas en forma de anillo con dos tipos de gemas, sabor a fresa y limón",
+      "price": 4000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011131782_A1N1_es.jpg"
+    },
+    {
+      "id": "21",
+      "title": "grissly splash",
+      "tipo": "gomas",
+      "description": "Gomas en forma de ranas y tortugas sabor a Fresa con relleno sabor a cereza.",
+      "price": 3000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011131959_A1N1_es.jpg"
+    },
+    {
+      "id": "22",
+      "title": "gomas multivitamina",
+      "tipo": "gomas",
+      "description": "Gomas sabores surtidos con vitamina y minerales..",
+      "price": 3000,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Dulces/7702011123190_A1N1_es.jpg"
+    },
+    {
+      "title": "",
+      "tipo": "",
+      "description": "",
+      "price": "",
+      "image": "",
+      "id": "xpN70MX"
+    },
+    {
+      "title": "",
+      "tipo": "",
+      "description": "",
+      "price": "",
+      "image": "",
+      "id": "UNlLK8Q"
+    }
+  ],
+  "carrito": [
+    {
+      "title": "chocobreak",
+      "tipo": "chocolate",
+      "description": "La porción ideal de chocolates  para darte un “break”",
+      "price": "1500",
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011002181_A1N1_es.jpg",
+      "id": "4",
+      "cantidad": "3",
+      "valortotal": 4500
+    },
+    {
+      "id": "3",
+      "title": "chocodisk",
+      "tipo": "chocolate",
+      "description": "Con Chocodisk puedes disfrutar deliciosos chocolates de colores.",
+      "price": 1500,
+      "cantidad": "3",
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011052513_A1R1_es.jpg",
+      "valortotal": 4500
+    },
+    {
+      "id": "5",
+      "title": "chocoball",
+      "tipo": "chocolate",
+      "description": "Chocolate, relleno con caramelo blando",
+      "price": 2800,
+      "cantidad": 1,
+      "image": "https://colombinacontentmanager-prd.s3.us-east-1.amazonaws.com/Chocolate/7702011006622_A1N1_es.jpg",
+      "valortotal": 2800
+    }
+  ],
+  "compras": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "cantidad": 14,
+      "valortotal": 24500,
+      "id": 7
+    },
+    {
+      "name": "",
+      "direccion": "",
+      "telefono": "",
+      "cantidad": 15,
+      "valortotal": 26000,
+      "id": 8
+    },
+    {
+      "name": "caer",
+      "direccion": "klkl",
+      "telefono": "44",
+      "cantidad": 15,
+      "valortotal": 26000,
+      "id": 9
+    },
+    {
+      "name": "luis",
+      "direccion": "callerica",
+      "telefono": "3004102478",
+      "cantidad": 11,
+      "valortotal": 34600,
+      "id": 10
+    }
+  ]
+}

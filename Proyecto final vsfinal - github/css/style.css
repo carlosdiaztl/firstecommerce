@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu&display=swap");
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* ------ */
+.image {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+#nav1 {
+  display: flex;
+  align-items: center;
+}
+#nav1 > * {
+  display: flex;
+  flex: 1;
+}
+.figure1 {
+  display: flex;
+}
+#sede {
+  height: 20%;
+  align-items: center;
+}
+.mapIcon {
+  width: 30px;
+  height: 30px;
+}
+#divSearchBar {
+  flex: 3;
+  height: 40%;
+  align-items: center;
+}
+.searchBar {
+  height: 35px;
+  border-radius: 20px;
+  flex: 3;
+}
+.imgBuscar {
+  width: 50px;
+  height: 50px;
+}
+#btnsHeader {
+  display: flex;
+  margin-top: -100px;
+}
+.imgLogin {
+  width: 80px;
+  height: 80px;
+}
+.more {
+  outline: none;
+  display: block;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  background-color: #fff;
+  background-repeat: repeat-x;
+  background-position: left top;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #fff;
+  font-weight: bold;
+  height: 22px;
+  line-height: 1.5em;
+}
+
+.more:hover {
+  border: 1px solid #bbb;
+  text-decoration: none;
+  background-position: left -78px;
+}
+
+.more:active {
+  color: #666;
+  background-position: left -38px;
+}
+
+.round {
+  border-radius: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#navbarMenu {
+  display: flex;
+}
+#navbarMenu > * {
+  flex: 1;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: #903b0d;
+  color: #fff;
+}
+.nav-links a {
+  color: #fff;
+}
+/* LOGO */
+.logo {
+  font-size: 20px;
+}
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 15px;
+}
+.menu li:hover {
+  background-color: #a97b4c;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 14px;
+}
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+}
+.dropdown {
+  background-color: #903b0d;
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+.dropdown li + li {
+  margin-top: 10px;
+}
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+.dropdown li:hover {
+  background-color: #a97b4c;
+}
+.services:hover .dropdown {
+  display: block;
+}
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type="checkbox"] {
+  display: none;
+}
+/*HAMBURGER MENU*/
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+/* MAIN SECTION */
+#mainSection {
+  display: flex;
+}
+#mainSection > * {
+  display: flex;
+  flex: 1;
+}
+#aside1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.ImgAside {
+  width: 100%;
+  height: 500%;
+}
+#cardsMain {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#cardsMain img {
+  width: 80%;
+  height: 100%;
+}
+.title {
+  cursor: pointer;
+}
+.menu__item {
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.rectangle3 {
+  width: 100%;
+}
+.items {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.actions span {
+  justify-content: center;
+  width: 10px;
+  height: 20px;
+  background-color: #ffffff;
+}
+
+
+.card__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.description__name {
+  align-items: flex-end;
+  font-weight: bold;
+}
+.actions {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.items {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#items{
+  width: 700px;
+}
+
+
+
+.btn--edit {
+  background-color: #535c68;
+}
+
+.btn--delete {
+  background-color: #eb4d4b;
+}
+aside {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+#formDiv {
+  display: flex;
+  width: 100px;
+  margin: 0px;
+}
+#containerForm {
+  width: 100%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 5px;
+}
+
+.input {
+  font-size: 1.2rem;
+  background-color: #dff9fb;
+  border: none;
+}
+
+.btn--submit {
+  background-color: #6ab04c;
+  width: 200px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+#div-botones {
+  display: none;
+}
+/*FOOTER*/
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #672f0a;
+  padding: 70px 0px;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  width: 50px;
+  box-sizing: border-box;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #fff;
+  padding-left: 8px;
+}
+.footer-col .socialLinks a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50px;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.footer-col .socialLinks a:hover {
+  color: #24252b;
+  background-color: #fff;
+}
+.btnHeart{
+  width: 40px;
+  color: #dff9fb;
+  background-color: transparent;
+  border: none;
+}
+#btnNew{
+  font-size: 40px;
+  color: red;
+}
+#aside1{
+  width: 20%;
+  position: fixed;
+  margin-top: 10%;
+  right: 0;
+}
+#aside1 img{
+  height: 100%;
+  object-fit: cover;
+}
+header{
+  background-color: #75df9e;
+}
+.checkoutForm{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#formcheck{
+  margin-top: 50px;
+  width: 65%;
+  height: 300px;
+  flex-direction: column;
+
+}
+#formcheck form{
+  padding: 15px 15px ;
+  display: flex;
+  flex-direction: column;
+
+}
+.formcheck form button{
+  width:20% ;
+  margin-left: 70%;
+}
+#cancel{background: rgb(165, 163, 163);
+
+}
+#buy{
+background-color: red;
+}
+#containerForm{
+  position: fixed;
+  bottom: 200px;
+ left: 100px;
+}
+.btncheckout{
+  width: 100px;
+  margin-top: 50px;
+}
+
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 767px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(143, 13, 93);
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .menu li:hover {
+    display: inline-block;
+    background-color: #9e4c93;
+    transition: 0.3s ease;
+  }
+  .menu li + li {
+    margin-top: 12px;
+  }
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+  .dropdown li:hover {
+    background-color: #9e4c93;
+  }
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
